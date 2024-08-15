@@ -1,6 +1,6 @@
 <?php
 
-namespace RodrigoAleixo;
+namespace RodrigoAleixo\Curl;
 
 class Html
 {
