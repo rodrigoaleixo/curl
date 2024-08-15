@@ -1,7 +1,7 @@
 <?php
 
 namespace RodrigoAleixo\Curl;
-
+use DOMDocument;
 class Html
 {
     public $htmlFull;
