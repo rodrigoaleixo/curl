@@ -1,0 +1,30 @@
+{
+  "name": "rodrigoaleixo/curl",
+  "description": "Biblioteca API para conexões com sites e extração e tratamento do HTML",
+  "keywords": [
+    "PHP",
+    "Nuuki",
+    "Rodrigo Aleixo",
+    "Curl",
+    "Html"
+  ],
+  "homepage": "https://www.nuuki.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Aleixo",
+      "email": "rodrigoaleixo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RodrigoAleixo\\Curl\\": "src"
+    }
+  }
+}
